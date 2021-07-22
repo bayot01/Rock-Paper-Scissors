@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(90, 84, 84);
+}
+h1 {
+  color: #1974ca;
+  font-size: 4rem;
+}
+.grey {
+  display: flex;
+  justify-content: center;
+}
+.black {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: rgba(20, 16, 16, 0.774);
+  height: 80vh;
+}
+.hp,
+.lenova {
+  display: flex;
+}
+.lenova p {
+  margin: 1rem;
+  font-size: 2rem;
+  color: azure;
+}
+.hp div{
+padding: 1.5rem;
+ border-radius: 10px;
+ background-color: grey;
+ margin: 10px;
+ border: 3px solid aliceblue;
+}
+.far {
+  font-size: 7rem;
+  color: rgb(231, 223, 223);
+}
+.core {
+  font-size: 2.5rem;
+  color: aliceblue;
+  font-weight: bold;
+}
+.status {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
